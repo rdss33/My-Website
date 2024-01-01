@@ -1,0 +1,49 @@
+@import "bootstrap";
+
+$button-color-1:#18204B;
+html{
+    background-image: url(./Resources/images/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+body{
+    background-color: transparent!important;
+}
+.my-Profile{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 100%;
+}
+.Profile-Picture{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    align-self: center;
+    border: 3px dashed #18204B
+}
+.my-Description{
+    font-family: Libre Baskerville, seriff;
+}
+.text-highlight-1{
+    color: #633096;
+}
+.text-highlight-2{
+    color: #306096;
+}
+.text-highlight-3{
+    color: #423096;
+}
+h1,h2{
+    font-family: Rubik Doodle Shadow, sans-serif;
+    color: #18204B;
+}
+.btn-primary {
+    @include button-variant($mynewcolor, darken($mynewcolor, 7.5%), darken($mynewcolor, 10%), lighten($mynewcolor,5%), lighten($mynewcolor, 10%), darken($mynewcolor,30%));
+}
+
+.btn-outline-primary {
+    @include button-outline-variant($mynewcolor, #222222, lighten($mynewcolor,5%), $mynewcolor);
+}

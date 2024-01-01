@@ -1,0 +1,59 @@
+
+html{
+    background-image: url(./Resources/images/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    background-color: transparent!important;
+}
+.my-Profile{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 100%;
+}
+.Profile-Picture{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    align-self: center;
+    border: 3px dashed #18204B
+}
+.my-Description{
+    font-family: Libre Baskerville, seriff;
+}
+.text-highlight-1{
+    color: #633096;
+}
+.text-highlight-2{
+    color: #306096;
+}
+.text-highlight-3{
+    color: #423096;
+}
+button{
+    height: 40px;
+    border-radius: 10%;
+    color: white;
+}
+.resume-button
+{
+    background-color: #306096;
+    
+}
+.Home-button{
+    font-size: 1.5rem;
+    color:#18204B
+}
+.pixel-art-button{
+    background-color: #423096;
+}
+h1,h2{
+    font-family: Rubik Doodle Shadow, sans-serif;
+    color: #18204B;
+}
+ul, li,a{
+    margin:0px!important;
+    padding: 0px!important;
+}
